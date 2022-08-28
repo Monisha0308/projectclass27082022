@@ -25,11 +25,17 @@ public  class employeedetails  {
 	
 	private void employeename() {
 		System.out.println("hloo");
+		
 
 	}
 	
+	private void employeeid() {
+System.out.println("789");
+
+	}
 public static void main(String[] args) {
-		
+	employeedetails e = new employeedetails();
+	e.employeeid();
 
 	}
  
